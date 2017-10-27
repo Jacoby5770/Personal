@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<link href="TousLesJour.css" rel="stylesheet">
+<head>
+<script src="/assets/jquery.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <h1> Tous Les Jour </h1>
+  <h2> Austin, Texas </h2>
+  <div class = "first">
+  <p>THE+ Honey Baguette<span class="price">$3.50</span><br />
+  <small>New Honey baguette with crispy outside and sweet honey inside</small></p>
+  </div>
+  <div class = "second">
+  <p>Milk Cream Bread<span class="price">$4.00</span><br />
+  <small>A popular order made with golden brown bread filled with a sweet whipped cream</small></p>
+  </div>
+  <div class = "third">
+  <p>Custard Brioche<span class="price">$3.75</span><br />
+  <small>Cute brioche bread with delicious sweet honey inside</small></p>
+  </div>
+  <script> 
+    $(function() {
+
+  $('div').on('click', function() {
+    $(this).toggleClass('show-description');
+  });
+
+  })
+    </script>
+</body>

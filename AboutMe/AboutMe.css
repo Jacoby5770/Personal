@@ -1,0 +1,53 @@
+      header {
+        text-align: center;
+        background: url("https://imgur.com/emFbfpr.jpg");
+        background-repeat: no-repeat;
+        background-size: 1500px 600px;
+        color: white;
+        height: 400px;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 50px;
+        color: rgba(255,255,255,1);
+        margin: 280px 0 0 0;
+      }
+      h2 {
+        font-size: 25px;
+        color: rgba(255,255,255,1);
+        margin: 10px 0 0 0;
+      }
+      h3 {
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+        margin: 10px 0 0 0;
+      }
+      ul {
+        background: black;
+        background: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        margin: 0 0 10px 0;
+        padding: 10px;
+      }
+      li {
+        display: inline;
+        padding: 10px 20px 0px 0px;
+      }
+      a {
+        color: blue;
+      }
+      article {
+        padding: 10px;
+        max-width: 500px;
+        margin: 0 auto; 
+      }
+      @media(max-width: 500px) {
+        h1 {
+          font-size: 36px;
+        }
+        li {
+          display: block;
+          padding: 5px;
+        }
+      }
+        
